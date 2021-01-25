@@ -4,13 +4,13 @@ $email=$_POST['email'];
 $contact=$_POST['contact'];
 $city=$_POST['city'];
 $course=$_POST['course'];
-$intrest=$_POST['intrest'];
+$interest=$_POST['interest'];
   //echo "name = $name<br>";
   //echo "email = $email<br>";
   //echo "contact = $contact<br>";
   //echo "city = $city<br>";
   //echo "course = $course<br>";
-  //echo "intrest = $intrest<br>";
+  //echo "interest = $interest<br>";
 ?>
 
 <!DOCTYPE html>
@@ -22,11 +22,11 @@ $intrest=$_POST['intrest'];
         Contact <input type="text" name="contact" maxlength="10"><br>
         City <input type="text" name="city"><br>
         Course <input type="text" name="course"><br>
-        Intrest:
-        Volleyball <input type="radio" value="Volleyball" name="intrest"> 
-        Music <input type="radio" value="music" name="intrest"> 
-        reading books <input type="radio" value="reading books" name="intrest"> 
-        indoor games <input type="radio" value="indoor games" name="intrest"><br>
+        Interest:
+        Volleyball <input type="radio" value="Volleyball" name="interest"> 
+        Music <input type="radio" value="music" name="interest"> 
+        reading books <input type="radio" value="reading books" name="interest"> 
+        indoor games <input type="radio" value="indoor games" name="interest"><br>
         <input type="submit" ><br>
         <table border=1px; style=" border-collapse: collapse">
               <tr>
@@ -35,7 +35,7 @@ $intrest=$_POST['intrest'];
                   <th>Contact</th>
                   <th>city</th>
                   <th>course</th>
-                  <th>intrest</th>
+                  <th>interest</th>
               </tr>
               <tr>
                   <th><?php echo "$name" ?></th>
@@ -43,7 +43,7 @@ $intrest=$_POST['intrest'];
                   <th><?php echo "$contact" ?></th>
                   <th><?php echo "$city" ?></th>
                   <th><?php echo "$course" ?></th>
-                  <th><?php echo "$intrest" ?></th>
+                  <th><?php echo "$interest" ?></th>
               </tr>
           </table>
     </form>
