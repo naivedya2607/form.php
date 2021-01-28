@@ -4,29 +4,29 @@ $email=$_POST['email'];
 $contact=$_POST['contact'];
 $city=$_POST['city'];
 $course=$_POST['course'];
-$interest=$_POST['interest'];
+$intrest=$_POST['intrest'];
   //echo "name = $name<br>";
   //echo "email = $email<br>";
   //echo "contact = $contact<br>";
   //echo "city = $city<br>";
   //echo "course = $course<br>";
-  //echo "interest = $interest<br>";
+  //echo "intrest = $intrest<br>";
 ?>
 
 <!DOCTYPE html>
 <html>
   <body>
-    <form method="post" action="index.php">
+    <form method="post" action="abcd.php">
         Name <input type="text" name="name" ><br>
         Email <input type="Email" name="email"><br>
         Contact <input type="text" name="contact" maxlength="10"><br>
         City <input type="text" name="city"><br>
         Course <input type="text" name="course"><br>
-        Interest:
-        Volleyball <input type="radio" value="Volleyball" name="interest"> 
-        Music <input type="radio" value="music" name="interest"> 
-        reading books <input type="radio" value="reading books" name="interest"> 
-        indoor games <input type="radio" value="indoor games" name="interest"><br>
+        Intrest:
+        Volleyball <input type="radio" value="Volleyball" name="intrest"> 
+        Music <input type="radio" value="music" name="intrest"> 
+        reading books <input type="radio" value="reading books" name="intrest"> 
+        indoor games <input type="radio" value="indoor games" name="intrest"><br>
         <input type="submit" ><br>
         <table border=1px; style=" border-collapse: collapse">
               <tr>
@@ -35,7 +35,7 @@ $interest=$_POST['interest'];
                   <th>Contact</th>
                   <th>city</th>
                   <th>course</th>
-                  <th>interest</th>
+                  <th>intrest</th>
               </tr>
               <tr>
                   <th><?php echo "$name" ?></th>
@@ -43,7 +43,7 @@ $interest=$_POST['interest'];
                   <th><?php echo "$contact" ?></th>
                   <th><?php echo "$city" ?></th>
                   <th><?php echo "$course" ?></th>
-                  <th><?php echo "$interest" ?></th>
+                  <th><?php echo "$intrest" ?></th>
               </tr>
           </table>
     </form>
